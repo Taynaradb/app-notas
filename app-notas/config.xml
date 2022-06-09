@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.taynara.appnotas" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>App notas</name>
+    <description>Um aplicativo para organizar anotações simples</description>
+    <author email="taynaraax0@hotmail.com" href="https://github.com/Taynaradb">
+        Taynara Barboza
+    </author>
+    <icon src="res/icon.png" />
+    
+    <preference name="SplashScreen" value="screen" />
+    <splash src="res/icon.png" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
