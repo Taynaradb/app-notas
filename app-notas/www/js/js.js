@@ -7,4 +7,5 @@ function salvarAnotocao(){
 
 document.getElementById("salvar").addEventListener("click", function(){
     salvarAnotocao();
+    navigator.vibrate(7000);
 });
